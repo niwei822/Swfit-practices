@@ -7,7 +7,6 @@
 
 import Foundation
 
-// "use properties and access control to build a structure that represents a secure personal bank account"
 //computed properties don’t have type inference; we must explicitly define their type.
 
 struct SwiftBank {
