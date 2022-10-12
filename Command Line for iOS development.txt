@@ -1,0 +1,54 @@
+﻿NAVIGATION:
+ls:  list all the files and directories inside the current directory.
+pwd: “print working directory.” 
+cd:  “change directory.”
+$ cd ../../.. move 3 levels
+mkdir: “make directory”
+touch: create a new file
+Bicycle World
+$ pwd
+/home/ccuser/workspace/bicycle-world-ii
+$ ls
+brands.txt  freight  mountain  racing
+$ cd freight
+$ ls
+messenger  porteur
+$ cd porteur
+$ cd ../..
+$ pwd
+/home/ccuser/workspace/bicycle-world-ii
+$ ls
+brands.txt  freight  mountain  racing
+$ cd mountain/downhill
+$ touch dirt.txt
+$ touch mud.txt
+$ ls
+dirt.txt  heavyweight  lightweight  mud.txt
+$ mkdir safety
+$ pwd
+/home/ccuser/workspace/bicycle-world-ii/mountain/downhill
+$ cd ../..
+$ ls
+brands.txt  freight  mountain  racing
+$ mkdir bmx
+$ touch bmx/tricks.txt
+$ ls
+bmx  brands.txt  freight  mountain  racing
+
+
+MANIPULATION
+ls:
+* -a - lists all contents, including hidden files and directories
+* -l - (a lowercase “L”) lists all contents of a directory in long format, as well as the file permissions
+* -t - orders files and directories by the time they were last modified.
+ls -alt lists all contents, including hidden files and directories, in long format, ordered by the date and time they were last modified.
+cat:
+outputs the contents of a specified file
+cp:
+ we copy the contents of a source file into a destination file or destination directory.
+Wildcards *
+mv:
+moves a file without making a copy.
+To rename a file, use mv with the old file as the first argument and the new file as the second argument
+rm:
+deletes files and directories. -r stands for “recursive,” and it’s used to delete a directory and all of its child directories.
