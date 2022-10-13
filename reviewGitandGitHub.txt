@@ -1,0 +1,11 @@
+Add Existing Project To Git Repo
+- git init
+- git add .
+- git commit -m "notes"
+- git remote add origin <remote repository URL>
+- git remote -v (sets the new remote)
+- git push origin master
+
+git diff: check the differences between the working directory and the staging area.
+
+git log: log a list of commits
